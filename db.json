@@ -1,0 +1,16 @@
+{
+  "cases": [
+    {
+      "id": 1,
+      "caseNumber": "CASE001",
+      "status": "open",
+      "description": "Problema di rete"
+    },
+    {
+      "id": 2,
+      "caseNumber": "CASE002",
+      "status": "closed",
+      "description": "Problema risolto"
+    }
+  ]
+}
