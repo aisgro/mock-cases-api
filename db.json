@@ -1,152 +1,51 @@
 {
-  "cases": [
+  "listaCases": [
+    { "id": "001", "titolo": "Errore accesso", "stato": "Aperto" },
+    { "id": "002", "titolo": "Richiesta informazioni", "stato": "Chiuso" },
+    { "id": "003", "titolo": "Bug funzionalità X", "stato": "In lavorazione" }
+  ],
+  "dettaglioCase": [
     {
-      "ownerName": "AAEEXAMPLEQ",
-      "createdByName": "Integration User",
-      "caseNumber": "02517341",
-      "contactEmail": "idemartino@sogei.it",
-      "contactId": "0033O000017Ip8dQAC",
-      "contactPhone": "065544332",
-      "createdById": "0052o000009RxaJAAS",
-      "createdDate": "2025-07-09T12:17:36.000+0000",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "id": "500MA00000OAhVuYAL",
-      "isClosed": false,
-      "isDeleted": false,
-      "isEscalated": false,
-      "lastModifiedById": "0052o000009RxaJAAS",
-      "lastModifiedDate": "2025-07-09T12:17:36.000+0000",
-      "lastReferencedDate": "2025-07-09T12:17:36.000+0000",
-      "lastViewedDate": "2025-07-09T12:17:36.000+0000",
-      "origin": "Email",
-      "ownerId": "00G3O00000ACEhpUAH",
-      "priority": "Media",
-      "recordTypeId": "0122o000000NxWvAAK",
-      "recordTypeName": "Sogei Case",
-      "status": "Open",
-      "systemModstamp": "2025-07-09T12:17:36.000+0000",
-      "totaleSolleciti": 0,
-      "totaleSospensioni": 0,
-      "caseHistories": [
-        {
-          "id": "a0BMA0000022mdh2AA",
-          "isDeleted": "false",
-          "name": "CH - 8692546",
-          "createdDate": "2025-07-09T12:17:36.000+0000",
-          "createdById": "0052o000009RxaJAAS",
-          "lastModifiedDate": "2025-07-09T12:17:36.000+0000",
-          "lastModifiedById": "0052o000009RxaJAAS",
-          "systemModstamp": "2025-07-09T12:17:36.000+0000",
-          "caseId": "500MA00000OAhVuYAL",
-          "userId": "EMAILCAI",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-          "livello1Code": "REG_ANIM",
-          "livello2Code": "IVERTEB",
-          "livello3Code": "INV_ANELL",
-          "livello4Code": "ANL_LOM",
-          "status": "Aperto",
-          "caseGroup": "AAEEXAMPLEQ",
-          "createdCaseOwnerFullName": "EMAILCAI",
-          "operationType": "Nuovo problema",
-          "transferSequence": "0.0",
-          "caseGroupTransfer": "None",
-          "operationDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-          "descriptionStartSuspension": "None",
-          "descriptionEndSuspension": "None",
-          "reasonSuspension": "None",
-          "reactivatedCase": false,
-          "hasAttachmentsCorrupted": false
-        }
-      ],
-      "backoffice": false,
-      "bestPractice": "--",
-      "callCenter": "None",
-      "callTime": 0,
-      "caseDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      "codeKit": "None",
-      "component": "a0C3O00000RRRnWUAX",
-      "contactCenter": false,
-      "contactFirstName": "ivan",
-      "contactLastName": "de martino",
-      "costINT": "None",
-      "descrizioneItem": "None",
-      "directCall": false,
-      "emailResolution": "false",
-      "email": "idemartino@sogei.it",
-      "exclusionCode": "0",
-      "interventionTime": 0,
-      "interventionType": false,
-      "item": "a0G3O000006aQ5XUAU",
-      "lastElapsedTime": "0.0",
-      "lastQueue": "AAEEXAMPLEQ",
-      "lastSituationDescription": "None",
-      "lastSuspensionTime": "0.0",
-      "module": "a0H3O00000O5XaNUAV",
-      "notes": "None",
-      "numberCalled": "EMAIL",
-      "operatorId": "EMAILCAI",
-      "queueOpen": "AAEEXAMPLEQ",
-      "related": false,
-      "system": "a0M3O000003idVFUAY",
-      "timeESP": 0,
-      "timeSUP": 0,
-      "totalDelay": 0,
-      "totalSuspensions": 0,
-      "totalTime": 0,
-      "totalTransferTime": 0,
-      "transfersNumber": 0,
-      "web2Case": false,
-      "derivative": false,
-      "invioEmailRisoluzione": false,
-      "deferred": false,
-      "startDate": "2025-07-09T12:17:35.000+0000",
-      "interaction": {
-        "systemModstamp": "2025-07-09T12:17:35.000+0000",
-        "ownerId": "0052o000009RxaJAAS",
-        "isDeleted": "false",
-        "name": "a0FMA000001lIk5",
-        "createdDate": "2025-07-09T12:17:35.000+0000",
-        "createdById": "0052o000009RxaJAAS",
-        "lastModifiedDate": "2025-07-09T12:17:35.000+0000",
-        "lastModifiedById": "0052o000009RxaJAAS",
-        "priority": "Medium",
-        "description": "None",
-        "lastQueue": "None",
-        "contact": "0033O000017Ip8dQAC",
-        "contactLastName": "de martino",
-        "contactFirstName": "ivan",
-        "contactPhone": "065544332",
-        "contactEmail": "idemartino@sogei.it",
-        "parentCall": "None",
-        "numberCalled": "EMAIL",
-        "contactLastCall": "2025-07-09",
-        "firstGroupAssigned": "AAEEXAMPLEQ",
-        "cti": "7",
-        "callCTIID": "None",
-        "userIdResolution": "None",
-        "callCenter": "None",
-        "directCall": "false",
-        "createdByUsername": "integrationuser@sogei-cem-prod.it.scimdev"
-      },
-      "classificazioneL1": {
-        "code": "REG_ANIM",
-        "description": "Regno animale"
-      },
-      "classificazioneL2": {
-        "code": "IVERTEB",
-        "description": "Animali Invertebrati"
-      },
-      "classificazioneL3": {
-        "code": "INV_ANELL",
-        "description": "Anellidi"
-      },
-      "classificazioneL4": {
-        "code": "ANL_LOM",
-        "description": "Lombrico"
-      },
-      "dom2": "0.0",
-      "dom3": "0.0",
-      "scim": "REG_ANIM|IVERTEB|INV_ANELL|ANL_LOM"
+      "id": "001",
+      "titolo": "Errore accesso",
+      "descrizione": "L'utente non riesce ad accedere al portale.",
+      "priorità": "Alta",
+      "stato": "Aperto"
+    }
+  ],
+  "creaCase": [
+    {
+      "esito": "OK",
+      "idCase": "004",
+      "messaggio": "Case creato correttamente"
+    }
+  ],
+  "allegatoCaseContent": [
+    {
+      "id": "a01",
+      "filename": "manuale.pdf",
+      "contentType": "application/pdf",
+      "stream": "JVBERi0xLjQKJ..."  // stringa base64 simulata
+    }
+  ],
+  "sollecitaCase": [
+    {
+      "id": "001",
+      "esito": "OK",
+      "messaggio": "Case sollecitato con successo"
+    }
+  ],
+  "webFormLivelli": [
+    { "codice": "CAT01", "descrizione": "Assistenza tecnica" },
+    { "codice": "CAT02", "descrizione": "Informazioni generali" },
+    { "codice": "CAT03", "descrizione": "Fatturazione" }
+  ],
+  "variazioneStato": [
+    {
+      "id": "001",
+      "vecchioStato": "Aperto",
+      "nuovoStato": "In lavorazione",
+      "esito": "OK"
     }
   ]
 }
