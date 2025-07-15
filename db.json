@@ -1,51 +1,74 @@
 {
-  "listaCases": [
-    { "id": "001", "titolo": "Errore accesso", "stato": "Aperto" },
-    { "id": "002", "titolo": "Richiesta informazioni", "stato": "Chiuso" },
-    { "id": "003", "titolo": "Bug funzionalità X", "stato": "In lavorazione" }
-  ],
-  "dettaglioCase": [
+  "casesApi": [
     {
-      "id": "001",
-      "titolo": "Errore accesso",
-      "descrizione": "L'utente non riesce ad accedere al portale.",
-      "priorita": "Alta",
-      "stato": "Aperto"
-    }
-  ],
-  "creaCase": [
+      "endpoint": "listaCases",
+      "data": [
+        { "id": "001", "titolo": "Errore accesso", "stato": "Aperto" },
+        { "id": "002", "titolo": "Richiesta informazioni", "stato": "Chiuso" },
+        { "id": "003", "titolo": "Bug funzionalità X", "stato": "In lavorazione" }
+      ]
+    },
     {
-      "esito": "OK",
-      "idCase": "004",
-      "messaggio": "Case creato correttamente"
-    }
-  ],
-  "allegatoCaseContent": [
+      "endpoint": "dettaglioCase",
+      "data": [
+        {
+          "id": "001",
+          "titolo": "Errore accesso",
+          "descrizione": "L'utente non riesce ad accedere al portale.",
+          "priorita": "Alta",
+          "stato": "Aperto"
+        }
+      ]
+    },
     {
-      "id": "a01",
-      "filename": "manuale.pdf",
-      "contentType": "application/pdf",
-      "stream": "JVBERi0xLjQKJTIwMDAwIG9iago8PC9UeXBlIC9QYWdlLw==" 
-    }
-  ],
-  "sollecitaCase": [
+      "endpoint": "creaCase",
+      "data": [
+        {
+          "esito": "OK",
+          "idCase": "004",
+          "messaggio": "Case creato correttamente"
+        }
+      ]
+    },
     {
-      "id": "001",
-      "esito": "OK",
-      "messaggio": "Case sollecitato con successo"
-    }
-  ],
-  "webFormLivelli": [
-    { "codice": "CAT01", "descrizione": "Assistenza tecnica" },
-    { "codice": "CAT02", "descrizione": "Informazioni generali" },
-    { "codice": "CAT03", "descrizione": "Fatturazione" }
-  ],
-  "variazioneStato": [
+      "endpoint": "allegatoCaseContent",
+      "data": [
+        {
+          "id": "a01",
+          "filename": "manuale.pdf",
+          "contentType": "application/pdf",
+          "stream": "JVBERi0xLjQKJTIwMDAwIG9iago8PC9UeXBlIC9QYWdlLw=="
+        }
+      ]
+    },
     {
-      "id": "001",
-      "vecchioStato": "Aperto",
-      "nuovoStato": "In lavorazione",
-      "esito": "OK"
+      "endpoint": "sollecitaCase",
+      "data": [
+        {
+          "id": "001",
+          "esito": "OK",
+          "messaggio": "Case sollecitato con successo"
+        }
+      ]
+    },
+    {
+      "endpoint": "webFormLivelli",
+      "data": [
+        { "codice": "CAT01", "descrizione": "Assistenza tecnica" },
+        { "codice": "CAT02", "descrizione": "Informazioni generali" },
+        { "codice": "CAT03", "descrizione": "Fatturazione" }
+      ]
+    },
+    {
+      "endpoint": "variazioneStato",
+      "data": [
+        {
+          "id": "001",
+          "vecchioStato": "Aperto",
+          "nuovoStato": "In lavorazione",
+          "esito": "OK"
+        }
+      ]
     }
   ]
 }
