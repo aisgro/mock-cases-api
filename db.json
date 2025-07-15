@@ -9,7 +9,7 @@
       "id": "001",
       "titolo": "Errore accesso",
       "descrizione": "L'utente non riesce ad accedere al portale.",
-      "priorità": "Alta",
+      "priorita": "Alta",
       "stato": "Aperto"
     }
   ],
@@ -25,7 +25,7 @@
       "id": "a01",
       "filename": "manuale.pdf",
       "contentType": "application/pdf",
-      "stream": "JVBERi0xLjQKJ..."  // stringa base64 simulata
+      "stream": "JVBERi0xLjQKJTIwMDAwIG9iago8PC9UeXBlIC9QYWdlLw==" 
     }
   ],
   "sollecitaCase": [
